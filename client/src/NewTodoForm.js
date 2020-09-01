@@ -34,7 +34,7 @@ class NewTodoForm extends Component
             }
         )
        console.log(newtodo);
-       axios.post("https://still-gorge-80290.herokuapp.com/createtodo",newtodo).then(response=>
+       axios.post("https://todo-list-excalibur.herokuapp.com/createtodo",newtodo).then(response=>
        {
             console.log(response.data);
            
