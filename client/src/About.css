@@ -1,0 +1,58 @@
+.About-heading
+{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.About-content
+{
+   
+   
+    width:560px;
+    margin:0 auto;
+    
+    background-color:rgba(208, 211, 212,0.5 );
+    color:black;
+    font-size:120%;
+    border-radius:20px;
+    padding-top:30px;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    margin-top:-20px;
+   
+}
+.my-image
+{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:2px solid white;
+    z-index:9999;
+    position:relative;
+    top:20px;
+}
+@media(max-width:856px)
+{
+    .About-content
+    {
+        width:auto;
+        
+        margin-left:70px;
+    }
+}
+@media(max-width:739px)
+{
+    .About-content
+    {
+       /* margin-left:70px;*/
+    }
+}
+@media(max-width:414px)
+{
+    .About-content
+    {
+        margin-left:0px;
+        width:auto;
+    }
+}

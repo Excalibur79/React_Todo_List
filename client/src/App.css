@@ -1,0 +1,78 @@
+.App
+{
+  display:flex;
+}
+.App-Navbar
+{
+  /*border:2px solid blue;*/
+  
+}
+.App-Component
+{
+  /*border:2px solid green;*/
+  flex:1;
+  text-align:center;
+  width:100%;
+  
+}
+.page
+{
+  
+ 
+ 
+  /*border:2px solid black;*/
+ /* margin-left:70px;*/
+  width:100%;
+  
+}
+
+
+
+.fade-exit
+{
+  opacity:1;
+  
+ 
+}
+.fade-exit-active
+{
+  opacity:0;
+  transition:opacity 500ms ease-out;
+  position:fixed;
+  width:100%;
+  
+   
+}
+.fade-enter
+{
+  opacity:0;
+}
+.fade-enter-active
+{
+  opacity:1;
+  transition:opacity 500ms ease-in;
+}
+
+@media(max-width:414px)
+{
+  .App
+  {
+    flex-direction:column;
+    height:100vh;
+    justify-content:space-between;
+  }
+  .App-Navbar
+  {
+    order:2;
+    width:100%;
+    height:auto;
+    
+  }
+  .App-Component
+  {
+    order:1;
+  }
+  .page{
+    margin-left:0px;
+  }
+}
