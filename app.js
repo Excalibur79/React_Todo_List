@@ -5,7 +5,7 @@ var bodyparser=require("body-parser");
 var mongoose=require("mongoose");
 var path=require("path");
 mongoose.set('useUnifiedTopology', true);
-mongoose.connect("mongodb://localhost/todo_react", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://Ankur:ankursahamotog5plus@cluster0.ghezj.mongodb.net/Todo?retryWrites=true&w=majority", { useNewUrlParser: true });
 mongoose.set('useFindAndModify', false);
 var Todo=require("./models/todo.js");
 
